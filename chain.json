@@ -1,1 +1,106 @@
-{"index": 1, "timeStamp": "03/10/2023", "data": "block_1", "previousHash": "9f9520eb96d21e47f62b1c6f1de58f0a0bbb30f3ff700f577aa1533d2f75918d", "hash": "0b359aeba2ca0173a84cfb12e3f3acfc90231bb56dc6c835929fc47ba0ec8b43"}{"index": 2, "timeStamp": "04/10/2023", "data": "block_2", "previousHash": "0b359aeba2ca0173a84cfb12e3f3acfc90231bb56dc6c835929fc47ba0ec8b43", "hash": "83ae1f8597aaf66c3f5d40ef8d056a025d6cdd5991bac09e95784d8c3e2c42fd"}
+[
+    {
+        "index": 0,
+        "timeStamp": "04/10/2023",
+        "transaction": [
+            {
+                "sender": "Genesis",
+                "receiver": "Genesis",
+                "amount": 1
+            }
+        ],
+        "previousHash": "0",
+        "hash": "decdc116abdd6794d8adc165b4ca5948b78a1240e3f07e1a3cc2ad06bf20b383",
+        "nonce": 0
+    },
+    {
+        "index": 1,
+        "timeStamp": "31/10/2023",
+        "transaction": [
+            {
+                "sender": "Anna",
+                "receiver": "Stepan",
+                "amount": 80
+            },
+            {
+                "sender": "Andrey",
+                "receiver": "Vladimir",
+                "amount": 12
+            },
+            {
+                "sender": "Matvey",
+                "receiver": "Mihail",
+                "amount": 72
+            }
+        ],
+        "previousHash": "decdc116abdd6794d8adc165b4ca5948b78a1240e3f07e1a3cc2ad06bf20b383",
+        "hash": "000f76eebd33cea234d8dd6805d2b2fbb6c872c366413a66d21a168614229ff7",
+        "nonce": 0
+    },
+    {
+        "index": 2,
+        "timeStamp": "31/10/2023",
+        "transaction": [
+            {
+                "sender": "Vladimir",
+                "receiver": "Valeriy",
+                "amount": 11
+            },
+            {
+                "sender": "Darya",
+                "receiver": "Vyacheslav",
+                "amount": 42
+            }
+        ],
+        "previousHash": "000f76eebd33cea234d8dd6805d2b2fbb6c872c366413a66d21a168614229ff7",
+        "hash": "00008e50ed10786273591b4c514fb850c6542238f41d67f9a514e8f9b69f646c",
+        "nonce": 0
+    },
+    {
+        "index": 3,
+        "timeStamp": "31/10/2023",
+        "transaction": [
+            {
+                "sender": "Matvey",
+                "receiver": "Sofya",
+                "amount": 96
+            },
+            {
+                "sender": "Vladimir",
+                "receiver": "Vyacheslav",
+                "amount": 97
+            }
+        ],
+        "previousHash": "00008e50ed10786273591b4c514fb850c6542238f41d67f9a514e8f9b69f646c",
+        "hash": "000d016a22928063ac7184325cf2e033ed0d107e7a8ecd632f67cad69e4c560f",
+        "nonce": 0
+    },
+    {
+        "index": 4,
+        "timeStamp": "31/10/2023",
+        "transaction": [
+            {
+                "sender": "Vyacheslav",
+                "receiver": "Artem",
+                "amount": 94
+            }
+        ],
+        "previousHash": "000d016a22928063ac7184325cf2e033ed0d107e7a8ecd632f67cad69e4c560f",
+        "hash": "000cee37c2ae1766c2a18a3d1715526e60eb09e7950eba0755aa025900dc7f87",
+        "nonce": 0
+    },
+    {
+        "index": 5,
+        "timeStamp": "31/10/2023",
+        "transaction": [
+            {
+                "sender": "Sofya",
+                "receiver": "Ivan",
+                "amount": 99
+            }
+        ],
+        "previousHash": "000cee37c2ae1766c2a18a3d1715526e60eb09e7950eba0755aa025900dc7f87",
+        "hash": "00044bc342a99cfb586fcf78b8c0dcacb5260baad7e9105a39a9a1327fea096c",
+        "nonce": 2097
+    }
+]
